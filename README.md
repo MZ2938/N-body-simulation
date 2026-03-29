@@ -6,10 +6,9 @@
 
 Simulation gravitationnelle de N particules en Python.
 
-<p align="center">
-  <img src="simulation.gif"
-       style="border-radius:20px;">
-</p>
+<div align="center">
+  <img src="simulation.gif" alt="Demo nbody simulation" width="700"/>
+</div>
 
 
 ## Lancer
