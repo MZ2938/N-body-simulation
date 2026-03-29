@@ -4,32 +4,32 @@
 
 # N-Body Simulation
 
-Simulation gravitationnelle de N particules en Python.
+Gravitational simulation of N particles in Python.
 
 <div align="center">
   <img src="simulation.gif" alt="Demo nbody simulation" width="700"/>
 </div>
 
 
-## Lancer
+## Run
 
 ```bash
 pip install pygame numpy
 python nbody.py
 ```
 
-## Contrôles
+## Controls
 
-| Touche | Action |
+| Key | Action |
 |--------|--------|
-| ← → ↑ ↓ | Déplacer la vue |
-| Z / S | Zoom avant / arrière |
+| ← → ↑ ↓ | Move the view |
+| Z / S | Zoom in / out |
 | P | Screenshot |
 
-## Physique
+## Physics
 
-Chaque particule subit l'attraction gravitationnelle de toutes les autres :
+Each particle is affected by the gravitational force of all the others:
 
 $$a_i = \sum_{j \neq i} G \cdot m_j \cdot \frac{r_j - r_i}{|r_j - r_i|^3}$$
 
-Intégration par la méthode d'Euler.
+Uses Euler integration.
